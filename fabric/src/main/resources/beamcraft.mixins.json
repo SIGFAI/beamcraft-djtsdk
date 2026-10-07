@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.beamcraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockStateMixin",
+    "EntityMixin",
+    "ExplosionMixin",
+    "FlowableFluidMixin",
+    "WorldMixin"
+  ],
+  "client": [
+    "BackgroundRendererMixin",
+    "FrameTimingMixin",
+    "ChatScreenAccessor",
+    "CreativeInventoryScreenAccessor",
+    "KeyboardInvoker",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "KeyBindingAccessor",
+    "MinecraftClientMixin",
+    "MouseInvoker",
+    "RenderSystemMixin",
+    "ScreenMixin",
+    "CameraMixin",
+    "InGameOverlayRendererMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

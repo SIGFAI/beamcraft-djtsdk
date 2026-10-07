@@ -1,0 +1,17 @@
+# build output
+fabric/.gradle/
+fabric/build/
+fabric/run/
+fabric/out/
+dist/
+
+# local helper tools (downloaded Gradle, test scripts)
+.tools/
+
+# IDEs / OS
+.idea/
+*.iml
+.vscode/
+Thumbs.db
+desktop.ini
+__pycache__/

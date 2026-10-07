@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "beamcraft",
+  "version": "${version}",
+  "name": "BeamCraft",
+  "description": "Runs Minecraft in the background and passes Steve through to BeamNG.drive: Minecraft movement, items, blocks and combat in BeamNG's world.",
+  "authors": ["BeamCraft"],
+  "license": "GPL-3.0-only",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.beamcraft.BeamCraftClient"]
+  },
+  "mixins": ["beamcraft.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}

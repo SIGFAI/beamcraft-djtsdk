@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><authoring_tool>BeamCraft gen_art.py</authoring_tool></contributor>
+    <unit meter="1" name="meter"/><up_axis>Z_UP</up_axis></asset>
+  <library_effects>
+    <effect id="beamcraft_steve_shoes-effect"><profile_COMMON><technique sid="common"><lambert>
+      <diffuse><color sid="diffuse">0.8 0.8 0.8 1</color></diffuse></lambert></technique></profile_COMMON></effect>
+    <effect id="beamcraft_steve_pants-effect"><profile_COMMON><technique sid="common"><lambert>
+      <diffuse><color sid="diffuse">0.8 0.8 0.8 1</color></diffuse></lambert></technique></profile_COMMON></effect>
+    <effect id="beamcraft_steve_shirt-effect"><profile_COMMON><technique sid="common"><lambert>
+      <diffuse><color sid="diffuse">0.8 0.8 0.8 1</color></diffuse></lambert></technique></profile_COMMON></effect>
+    <effect id="beamcraft_steve_skin-effect"><profile_COMMON><technique sid="common"><lambert>
+      <diffuse><color sid="diffuse">0.8 0.8 0.8 1</color></diffuse></lambert></technique></profile_COMMON></effect>
+    <effect id="beamcraft_steve_hair-effect"><profile_COMMON><technique sid="common"><lambert>
+      <diffuse><color sid="diffuse">0.8 0.8 0.8 1</color></diffuse></lambert></technique></profile_COMMON></effect>
+    <effect id="beamcraft_steve_eyewhite-effect"><profile_COMMON><technique sid="common"><lambert>
+      <diffuse><color sid="diffuse">0.8 0.8 0.8 1</color></diffuse></lambert></technique></profile_COMMON></effect>
+    <effect id="beamcraft_steve_eye-effect"><profile_COMMON><technique sid="common"><lambert>
+      <diffuse><color sid="diffuse">0.8 0.8 0.8 1</color></diffuse></lambert></technique></profile_COMMON></effect>
+    <effect id="beamcraft_steve_mouth-effect"><profile_COMMON><technique sid="common"><lambert>
+      <diffuse><color sid="diffuse">0.8 0.8 0.8 1</color></diffuse></lambert></technique></profile_COMMON></effect>
+  </library_effects>
+  <library_materials>
+    <material id="beamcraft_steve_shoes-material" name="beamcraft_steve_shoes"><instance_effect url="#beamcraft_steve_shoes-effect"/></material>
+    <material id="beamcraft_steve_pants-material" name="beamcraft_steve_pants"><instance_effect url="#beamcraft_steve_pants-effect"/></material>
+    <material id="beamcraft_steve_shirt-material" name="beamcraft_steve_shirt"><instance_effect url="#beamcraft_steve_shirt-effect"/></material>
+    <material id="beamcraft_steve_skin-material" name="beamcraft_steve_skin"><instance_effect url="#beamcraft_steve_skin-effect"/></material>
+    <material id="beamcraft_steve_hair-material" name="beamcraft_steve_hair"><instance_effect url="#beamcraft_steve_hair-effect"/></material>
+    <material id="beamcraft_steve_eyewhite-material" name="beamcraft_steve_eyewhite"><instance_effect url="#beamcraft_steve_eyewhite-effect"/></material>
+    <material id="beamcraft_steve_eye-material" name="beamcraft_steve_eye"><instance_effect url="#beamcraft_steve_eye-effect"/></material>
+    <material id="beamcraft_steve_mouth-material" name="beamcraft_steve_mouth"><instance_effect url="#beamcraft_steve_mouth-effect"/></material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="beamcraft_steve_0-mesh" name="beamcraft_steve_0">
+      <mesh>
+        <source id="beamcraft_steve_0-pos"><float_array id="beamcraft_steve_0-pos-array" count="144">-0.225 -0.1125 0.1125 0 -0.1125 0.1125 0 0.1125 0.1125 -0.225 0.1125 0.1125 -0.225 0.1125 0 0 0.1125 0 0 -0.1125 0 -0.225 -0.1125 0 0 -0.1125 0 0 0.1125 0 0 0.1125 0.1125 0 -0.1125 0.1125 -0.225 0.1125 0 -0.225 -0.1125 0 -0.225 -0.1125 0.1125 -0.225 0.1125 0.1125 0 0.1125 0 -0.225 0.1125 0 -0.225 0.1125 0.1125 0 0.1125 0.1125 -0.225 -0.1125 0 0 -0.1125 0 0 -0.1125 0.1125 -0.225 -0.1125 0.1125 0 -0.1125 0.1125 0.225 -0.1125 0.1125 0.225 0.1125 0.1125 0 0.1125 0.1125 0 0.1125 0 0.225 0.1125 0 0.225 -0.1125 0 0 -0.1125 0 0.225 -0.1125 0 0.225 0.1125 0 0.225 0.1125 0.1125 0.225 -0.1125 0.1125 0 0.1125 0 0 -0.1125 0 0 -0.1125 0.1125 0 0.1125 0.1125 0.225 0.1125 0 0 0.1125 0 0 0.1125 0.1125 0.225 0.1125 0.1125 0 -0.1125 0 0.225 -0.1125 0 0.225 -0.1125 0.1125 0 -0.1125 0.1125</float_array>
+          <technique_common><accessor source="#beamcraft_steve_0-pos-array" count="48" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_0-nrm"><float_array id="beamcraft_steve_0-nrm-array" count="36">0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0 0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0</float_array>
+          <technique_common><accessor source="#beamcraft_steve_0-nrm-array" count="12" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_0-uv"><float_array id="beamcraft_steve_0-uv-array" count="96">0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1</float_array>
+          <technique_common><accessor source="#beamcraft_steve_0-uv-array" count="48" stride="2"><param name="S" type="float"/><param name="T" type="float"/></accessor></technique_common></source>
+        <vertices id="beamcraft_steve_0-vtx"><input semantic="POSITION" source="#beamcraft_steve_0-pos"/></vertices>
+        <polylist count="12" material="beamcraft_steve_shoes-material">
+          <input offset="0" semantic="VERTEX" source="#beamcraft_steve_0-vtx"/>
+          <input offset="1" semantic="NORMAL" source="#beamcraft_steve_0-nrm"/>
+          <input offset="2" semantic="TEXCOORD" source="#beamcraft_steve_0-uv" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4</vcount>
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 1 4 5 1 5 6 1 6 7 1 7 8 2 8 9 2 9 10 2 10 11 2 11 12 3 12 13 3 13 14 3 14 15 3 15 16 4 16 17 4 17 18 4 18 19 4 19 20 5 20 21 5 21 22 5 22 23 5 23 24 6 24 25 6 25 26 6 26 27 6 27 28 7 28 29 7 29 30 7 30 31 7 31 32 8 32 33 8 33 34 8 34 35 8 35 36 9 36 37 9 37 38 9 38 39 9 39 40 10 40 41 10 41 42 10 42 43 10 43 44 11 44 45 11 45 46 11 46 47 11 47</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="beamcraft_steve_1-mesh" name="beamcraft_steve_1">
+      <mesh>
+        <source id="beamcraft_steve_1-pos"><float_array id="beamcraft_steve_1-pos-array" count="144">-0.225 -0.1125 0.675 0 -0.1125 0.675 0 0.1125 0.675 -0.225 0.1125 0.675 -0.225 0.1125 0.1125 0 0.1125 0.1125 0 -0.1125 0.1125 -0.225 -0.1125 0.1125 0 -0.1125 0.1125 0 0.1125 0.1125 0 0.1125 0.675 0 -0.1125 0.675 -0.225 0.1125 0.1125 -0.225 -0.1125 0.1125 -0.225 -0.1125 0.675 -0.225 0.1125 0.675 0 0.1125 0.1125 -0.225 0.1125 0.1125 -0.225 0.1125 0.675 0 0.1125 0.675 -0.225 -0.1125 0.1125 0 -0.1125 0.1125 0 -0.1125 0.675 -0.225 -0.1125 0.675 0 -0.1125 0.675 0.225 -0.1125 0.675 0.225 0.1125 0.675 0 0.1125 0.675 0 0.1125 0.1125 0.225 0.1125 0.1125 0.225 -0.1125 0.1125 0 -0.1125 0.1125 0.225 -0.1125 0.1125 0.225 0.1125 0.1125 0.225 0.1125 0.675 0.225 -0.1125 0.675 0 0.1125 0.1125 0 -0.1125 0.1125 0 -0.1125 0.675 0 0.1125 0.675 0.225 0.1125 0.1125 0 0.1125 0.1125 0 0.1125 0.675 0.225 0.1125 0.675 0 -0.1125 0.1125 0.225 -0.1125 0.1125 0.225 -0.1125 0.675 0 -0.1125 0.675</float_array>
+          <technique_common><accessor source="#beamcraft_steve_1-pos-array" count="48" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_1-nrm"><float_array id="beamcraft_steve_1-nrm-array" count="36">0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0 0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0</float_array>
+          <technique_common><accessor source="#beamcraft_steve_1-nrm-array" count="12" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_1-uv"><float_array id="beamcraft_steve_1-uv-array" count="96">0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1</float_array>
+          <technique_common><accessor source="#beamcraft_steve_1-uv-array" count="48" stride="2"><param name="S" type="float"/><param name="T" type="float"/></accessor></technique_common></source>
+        <vertices id="beamcraft_steve_1-vtx"><input semantic="POSITION" source="#beamcraft_steve_1-pos"/></vertices>
+        <polylist count="12" material="beamcraft_steve_pants-material">
+          <input offset="0" semantic="VERTEX" source="#beamcraft_steve_1-vtx"/>
+          <input offset="1" semantic="NORMAL" source="#beamcraft_steve_1-nrm"/>
+          <input offset="2" semantic="TEXCOORD" source="#beamcraft_steve_1-uv" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4</vcount>
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 1 4 5 1 5 6 1 6 7 1 7 8 2 8 9 2 9 10 2 10 11 2 11 12 3 12 13 3 13 14 3 14 15 3 15 16 4 16 17 4 17 18 4 18 19 4 19 20 5 20 21 5 21 22 5 22 23 5 23 24 6 24 25 6 25 26 6 26 27 6 27 28 7 28 29 7 29 30 7 30 31 7 31 32 8 32 33 8 33 34 8 34 35 8 35 36 9 36 37 9 37 38 9 38 39 9 39 40 10 40 41 10 41 42 10 42 43 10 43 44 11 44 45 11 45 46 11 46 47 11 47</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="beamcraft_steve_2-mesh" name="beamcraft_steve_2">
+      <mesh>
+        <source id="beamcraft_steve_2-pos"><float_array id="beamcraft_steve_2-pos-array" count="216">-0.225 -0.1125 1.35 0.225 -0.1125 1.35 0.225 0.1125 1.35 -0.225 0.1125 1.35 -0.225 0.1125 0.675 0.225 0.1125 0.675 0.225 -0.1125 0.675 -0.225 -0.1125 0.675 0.225 -0.1125 0.675 0.225 0.1125 0.675 0.225 0.1125 1.35 0.225 -0.1125 1.35 -0.225 0.1125 0.675 -0.225 -0.1125 0.675 -0.225 -0.1125 1.35 -0.225 0.1125 1.35 0.225 0.1125 0.675 -0.225 0.1125 0.675 -0.225 0.1125 1.35 0.225 0.1125 1.35 -0.225 -0.1125 0.675 0.225 -0.1125 0.675 0.225 -0.1125 1.35 -0.225 -0.1125 1.35 -0.45 -0.1125 1.35 -0.225 -0.1125 1.35 -0.225 0.1125 1.35 -0.45 0.1125 1.35 -0.45 0.1125 1.125 -0.225 0.1125 1.125 -0.225 -0.1125 1.125 -0.45 -0.1125 1.125 -0.225 -0.1125 1.125 -0.225 0.1125 1.125 -0.225 0.1125 1.35 -0.225 -0.1125 1.35 -0.45 0.1125 1.125 -0.45 -0.1125 1.125 -0.45 -0.1125 1.35 -0.45 0.1125 1.35 -0.225 0.1125 1.125 -0.45 0.1125 1.125 -0.45 0.1125 1.35 -0.225 0.1125 1.35 -0.45 -0.1125 1.125 -0.225 -0.1125 1.125 -0.225 -0.1125 1.35 -0.45 -0.1125 1.35 0.225 -0.1125 1.35 0.45 -0.1125 1.35 0.45 0.1125 1.35 0.225 0.1125 1.35 0.225 0.1125 1.125 0.45 0.1125 1.125 0.45 -0.1125 1.125 0.225 -0.1125 1.125 0.45 -0.1125 1.125 0.45 0.1125 1.125 0.45 0.1125 1.35 0.45 -0.1125 1.35 0.225 0.1125 1.125 0.225 -0.1125 1.125 0.225 -0.1125 1.35 0.225 0.1125 1.35 0.45 0.1125 1.125 0.225 0.1125 1.125 0.225 0.1125 1.35 0.45 0.1125 1.35 0.225 -0.1125 1.125 0.45 -0.1125 1.125 0.45 -0.1125 1.35 0.225 -0.1125 1.35</float_array>
+          <technique_common><accessor source="#beamcraft_steve_2-pos-array" count="72" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_2-nrm"><float_array id="beamcraft_steve_2-nrm-array" count="54">0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0 0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0 0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0</float_array>
+          <technique_common><accessor source="#beamcraft_steve_2-nrm-array" count="18" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_2-uv"><float_array id="beamcraft_steve_2-uv-array" count="144">0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1</float_array>
+          <technique_common><accessor source="#beamcraft_steve_2-uv-array" count="72" stride="2"><param name="S" type="float"/><param name="T" type="float"/></accessor></technique_common></source>
+        <vertices id="beamcraft_steve_2-vtx"><input semantic="POSITION" source="#beamcraft_steve_2-pos"/></vertices>
+        <polylist count="18" material="beamcraft_steve_shirt-material">
+          <input offset="0" semantic="VERTEX" source="#beamcraft_steve_2-vtx"/>
+          <input offset="1" semantic="NORMAL" source="#beamcraft_steve_2-nrm"/>
+          <input offset="2" semantic="TEXCOORD" source="#beamcraft_steve_2-uv" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4</vcount>
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 1 4 5 1 5 6 1 6 7 1 7 8 2 8 9 2 9 10 2 10 11 2 11 12 3 12 13 3 13 14 3 14 15 3 15 16 4 16 17 4 17 18 4 18 19 4 19 20 5 20 21 5 21 22 5 22 23 5 23 24 6 24 25 6 25 26 6 26 27 6 27 28 7 28 29 7 29 30 7 30 31 7 31 32 8 32 33 8 33 34 8 34 35 8 35 36 9 36 37 9 37 38 9 38 39 9 39 40 10 40 41 10 41 42 10 42 43 10 43 44 11 44 45 11 45 46 11 46 47 11 47 48 12 48 49 12 49 50 12 50 51 12 51 52 13 52 53 13 53 54 13 54 55 13 55 56 14 56 57 14 57 58 14 58 59 14 59 60 15 60 61 15 61 62 15 62 63 15 63 64 16 64 65 16 65 66 16 66 67 16 67 68 17 68 69 17 69 70 17 70 71 17 71</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="beamcraft_steve_3-mesh" name="beamcraft_steve_3">
+      <mesh>
+        <source id="beamcraft_steve_3-pos"><float_array id="beamcraft_steve_3-pos-array" count="216">-0.45 -0.1125 1.125 -0.225 -0.1125 1.125 -0.225 0.1125 1.125 -0.45 0.1125 1.125 -0.45 0.1125 0.675 -0.225 0.1125 0.675 -0.225 -0.1125 0.675 -0.45 -0.1125 0.675 -0.225 -0.1125 0.675 -0.225 0.1125 0.675 -0.225 0.1125 1.125 -0.225 -0.1125 1.125 -0.45 0.1125 0.675 -0.45 -0.1125 0.675 -0.45 -0.1125 1.125 -0.45 0.1125 1.125 -0.225 0.1125 0.675 -0.45 0.1125 0.675 -0.45 0.1125 1.125 -0.225 0.1125 1.125 -0.45 -0.1125 0.675 -0.225 -0.1125 0.675 -0.225 -0.1125 1.125 -0.45 -0.1125 1.125 0.225 -0.1125 1.125 0.45 -0.1125 1.125 0.45 0.1125 1.125 0.225 0.1125 1.125 0.225 0.1125 0.675 0.45 0.1125 0.675 0.45 -0.1125 0.675 0.225 -0.1125 0.675 0.45 -0.1125 0.675 0.45 0.1125 0.675 0.45 0.1125 1.125 0.45 -0.1125 1.125 0.225 0.1125 0.675 0.225 -0.1125 0.675 0.225 -0.1125 1.125 0.225 0.1125 1.125 0.45 0.1125 0.675 0.225 0.1125 0.675 0.225 0.1125 1.125 0.45 0.1125 1.125 0.225 -0.1125 0.675 0.45 -0.1125 0.675 0.45 -0.1125 1.125 0.225 -0.1125 1.125 -0.225 -0.225 1.8 0.225 -0.225 1.8 0.225 0.225 1.8 -0.225 0.225 1.8 -0.225 0.225 1.35 0.225 0.225 1.35 0.225 -0.225 1.35 -0.225 -0.225 1.35 0.225 -0.225 1.35 0.225 0.225 1.35 0.225 0.225 1.8 0.225 -0.225 1.8 -0.225 0.225 1.35 -0.225 -0.225 1.35 -0.225 -0.225 1.8 -0.225 0.225 1.8 0.225 0.225 1.35 -0.225 0.225 1.35 -0.225 0.225 1.8 0.225 0.225 1.8 -0.225 -0.225 1.35 0.225 -0.225 1.35 0.225 -0.225 1.8 -0.225 -0.225 1.8</float_array>
+          <technique_common><accessor source="#beamcraft_steve_3-pos-array" count="72" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_3-nrm"><float_array id="beamcraft_steve_3-nrm-array" count="54">0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0 0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0 0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0</float_array>
+          <technique_common><accessor source="#beamcraft_steve_3-nrm-array" count="18" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_3-uv"><float_array id="beamcraft_steve_3-uv-array" count="144">0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1</float_array>
+          <technique_common><accessor source="#beamcraft_steve_3-uv-array" count="72" stride="2"><param name="S" type="float"/><param name="T" type="float"/></accessor></technique_common></source>
+        <vertices id="beamcraft_steve_3-vtx"><input semantic="POSITION" source="#beamcraft_steve_3-pos"/></vertices>
+        <polylist count="18" material="beamcraft_steve_skin-material">
+          <input offset="0" semantic="VERTEX" source="#beamcraft_steve_3-vtx"/>
+          <input offset="1" semantic="NORMAL" source="#beamcraft_steve_3-nrm"/>
+          <input offset="2" semantic="TEXCOORD" source="#beamcraft_steve_3-uv" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4</vcount>
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 1 4 5 1 5 6 1 6 7 1 7 8 2 8 9 2 9 10 2 10 11 2 11 12 3 12 13 3 13 14 3 14 15 3 15 16 4 16 17 4 17 18 4 18 19 4 19 20 5 20 21 5 21 22 5 22 23 5 23 24 6 24 25 6 25 26 6 26 27 6 27 28 7 28 29 7 29 30 7 30 31 7 31 32 8 32 33 8 33 34 8 34 35 8 35 36 9 36 37 9 37 38 9 38 39 9 39 40 10 40 41 10 41 42 10 42 43 10 43 44 11 44 45 11 45 46 11 46 47 11 47 48 12 48 49 12 49 50 12 50 51 12 51 52 13 52 53 13 53 54 13 54 55 13 55 56 14 56 57 14 57 58 14 58 59 14 59 60 15 60 61 15 61 62 15 62 63 15 63 64 16 64 65 16 65 66 16 66 67 16 67 68 17 68 69 17 69 70 17 70 71 17 71</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="beamcraft_steve_4-mesh" name="beamcraft_steve_4">
+      <mesh>
+        <source id="beamcraft_steve_4-pos"><float_array id="beamcraft_steve_4-pos-array" count="144">-0.23 -0.23 1.805 0.23 -0.23 1.805 0.23 0.23 1.805 -0.23 0.23 1.805 -0.23 0.23 1.71562 0.23 0.23 1.71562 0.23 -0.23 1.71562 -0.23 -0.23 1.71562 0.23 -0.23 1.71562 0.23 0.23 1.71562 0.23 0.23 1.805 0.23 -0.23 1.805 -0.23 0.23 1.71562 -0.23 -0.23 1.71562 -0.23 -0.23 1.805 -0.23 0.23 1.805 0.23 0.23 1.71562 -0.23 0.23 1.71562 -0.23 0.23 1.805 0.23 0.23 1.805 -0.23 -0.23 1.71562 0.23 -0.23 1.71562 0.23 -0.23 1.805 -0.23 -0.23 1.805 -0.23 -0.23 1.8 0.23 -0.23 1.8 0.23 -0.16875 1.8 -0.23 -0.16875 1.8 -0.23 -0.16875 1.51875 0.23 -0.16875 1.51875 0.23 -0.23 1.51875 -0.23 -0.23 1.51875 0.23 -0.23 1.51875 0.23 -0.16875 1.51875 0.23 -0.16875 1.8 0.23 -0.23 1.8 -0.23 -0.16875 1.51875 -0.23 -0.23 1.51875 -0.23 -0.23 1.8 -0.23 -0.16875 1.8 0.23 -0.16875 1.51875 -0.23 -0.16875 1.51875 -0.23 -0.16875 1.8 0.23 -0.16875 1.8 -0.23 -0.23 1.51875 0.23 -0.23 1.51875 0.23 -0.23 1.8 -0.23 -0.23 1.8</float_array>
+          <technique_common><accessor source="#beamcraft_steve_4-pos-array" count="48" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_4-nrm"><float_array id="beamcraft_steve_4-nrm-array" count="36">0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0 0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0</float_array>
+          <technique_common><accessor source="#beamcraft_steve_4-nrm-array" count="12" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_4-uv"><float_array id="beamcraft_steve_4-uv-array" count="96">0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1</float_array>
+          <technique_common><accessor source="#beamcraft_steve_4-uv-array" count="48" stride="2"><param name="S" type="float"/><param name="T" type="float"/></accessor></technique_common></source>
+        <vertices id="beamcraft_steve_4-vtx"><input semantic="POSITION" source="#beamcraft_steve_4-pos"/></vertices>
+        <polylist count="12" material="beamcraft_steve_hair-material">
+          <input offset="0" semantic="VERTEX" source="#beamcraft_steve_4-vtx"/>
+          <input offset="1" semantic="NORMAL" source="#beamcraft_steve_4-nrm"/>
+          <input offset="2" semantic="TEXCOORD" source="#beamcraft_steve_4-uv" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4</vcount>
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 1 4 5 1 5 6 1 6 7 1 7 8 2 8 9 2 9 10 2 10 11 2 11 12 3 12 13 3 13 14 3 14 15 3 15 16 4 16 17 4 17 18 4 18 19 4 19 20 5 20 21 5 21 22 5 22 23 5 23 24 6 24 25 6 25 26 6 26 27 6 27 28 7 28 29 7 29 30 7 30 31 7 31 32 8 32 33 8 33 34 8 34 35 8 35 36 9 36 37 9 37 38 9 38 39 9 39 40 10 40 41 10 41 42 10 42 43 10 43 44 11 44 45 11 45 46 11 46 47 11 47</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="beamcraft_steve_5-mesh" name="beamcraft_steve_5">
+      <mesh>
+        <source id="beamcraft_steve_5-pos"><float_array id="beamcraft_steve_5-pos-array" count="144">-0.16875 0.225 1.575 -0.1125 0.225 1.575 -0.1125 0.231 1.575 -0.16875 0.231 1.575 -0.16875 0.231 1.51875 -0.1125 0.231 1.51875 -0.1125 0.225 1.51875 -0.16875 0.225 1.51875 -0.1125 0.225 1.51875 -0.1125 0.231 1.51875 -0.1125 0.231 1.575 -0.1125 0.225 1.575 -0.16875 0.231 1.51875 -0.16875 0.225 1.51875 -0.16875 0.225 1.575 -0.16875 0.231 1.575 -0.1125 0.231 1.51875 -0.16875 0.231 1.51875 -0.16875 0.231 1.575 -0.1125 0.231 1.575 -0.16875 0.225 1.51875 -0.1125 0.225 1.51875 -0.1125 0.225 1.575 -0.16875 0.225 1.575 0.1125 0.225 1.575 0.16875 0.225 1.575 0.16875 0.231 1.575 0.1125 0.231 1.575 0.1125 0.231 1.51875 0.16875 0.231 1.51875 0.16875 0.225 1.51875 0.1125 0.225 1.51875 0.16875 0.225 1.51875 0.16875 0.231 1.51875 0.16875 0.231 1.575 0.16875 0.225 1.575 0.1125 0.231 1.51875 0.1125 0.225 1.51875 0.1125 0.225 1.575 0.1125 0.231 1.575 0.16875 0.231 1.51875 0.1125 0.231 1.51875 0.1125 0.231 1.575 0.16875 0.231 1.575 0.1125 0.225 1.51875 0.16875 0.225 1.51875 0.16875 0.225 1.575 0.1125 0.225 1.575</float_array>
+          <technique_common><accessor source="#beamcraft_steve_5-pos-array" count="48" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_5-nrm"><float_array id="beamcraft_steve_5-nrm-array" count="36">0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0 0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0</float_array>
+          <technique_common><accessor source="#beamcraft_steve_5-nrm-array" count="12" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_5-uv"><float_array id="beamcraft_steve_5-uv-array" count="96">0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1</float_array>
+          <technique_common><accessor source="#beamcraft_steve_5-uv-array" count="48" stride="2"><param name="S" type="float"/><param name="T" type="float"/></accessor></technique_common></source>
+        <vertices id="beamcraft_steve_5-vtx"><input semantic="POSITION" source="#beamcraft_steve_5-pos"/></vertices>
+        <polylist count="12" material="beamcraft_steve_eyewhite-material">
+          <input offset="0" semantic="VERTEX" source="#beamcraft_steve_5-vtx"/>
+          <input offset="1" semantic="NORMAL" source="#beamcraft_steve_5-nrm"/>
+          <input offset="2" semantic="TEXCOORD" source="#beamcraft_steve_5-uv" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4</vcount>
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 1 4 5 1 5 6 1 6 7 1 7 8 2 8 9 2 9 10 2 10 11 2 11 12 3 12 13 3 13 14 3 14 15 3 15 16 4 16 17 4 17 18 4 18 19 4 19 20 5 20 21 5 21 22 5 22 23 5 23 24 6 24 25 6 25 26 6 26 27 6 27 28 7 28 29 7 29 30 7 30 31 7 31 32 8 32 33 8 33 34 8 34 35 8 35 36 9 36 37 9 37 38 9 38 39 9 39 40 10 40 41 10 41 42 10 42 43 10 43 44 11 44 45 11 45 46 11 46 47 11 47</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="beamcraft_steve_6-mesh" name="beamcraft_steve_6">
+      <mesh>
+        <source id="beamcraft_steve_6-pos"><float_array id="beamcraft_steve_6-pos-array" count="144">-0.1125 0.225 1.575 -0.05625 0.225 1.575 -0.05625 0.231 1.575 -0.1125 0.231 1.575 -0.1125 0.231 1.51875 -0.05625 0.231 1.51875 -0.05625 0.225 1.51875 -0.1125 0.225 1.51875 -0.05625 0.225 1.51875 -0.05625 0.231 1.51875 -0.05625 0.231 1.575 -0.05625 0.225 1.575 -0.1125 0.231 1.51875 -0.1125 0.225 1.51875 -0.1125 0.225 1.575 -0.1125 0.231 1.575 -0.05625 0.231 1.51875 -0.1125 0.231 1.51875 -0.1125 0.231 1.575 -0.05625 0.231 1.575 -0.1125 0.225 1.51875 -0.05625 0.225 1.51875 -0.05625 0.225 1.575 -0.1125 0.225 1.575 0.05625 0.225 1.575 0.1125 0.225 1.575 0.1125 0.231 1.575 0.05625 0.231 1.575 0.05625 0.231 1.51875 0.1125 0.231 1.51875 0.1125 0.225 1.51875 0.05625 0.225 1.51875 0.1125 0.225 1.51875 0.1125 0.231 1.51875 0.1125 0.231 1.575 0.1125 0.225 1.575 0.05625 0.231 1.51875 0.05625 0.225 1.51875 0.05625 0.225 1.575 0.05625 0.231 1.575 0.1125 0.231 1.51875 0.05625 0.231 1.51875 0.05625 0.231 1.575 0.1125 0.231 1.575 0.05625 0.225 1.51875 0.1125 0.225 1.51875 0.1125 0.225 1.575 0.05625 0.225 1.575</float_array>
+          <technique_common><accessor source="#beamcraft_steve_6-pos-array" count="48" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_6-nrm"><float_array id="beamcraft_steve_6-nrm-array" count="36">0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0 0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0</float_array>
+          <technique_common><accessor source="#beamcraft_steve_6-nrm-array" count="12" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_6-uv"><float_array id="beamcraft_steve_6-uv-array" count="96">0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1</float_array>
+          <technique_common><accessor source="#beamcraft_steve_6-uv-array" count="48" stride="2"><param name="S" type="float"/><param name="T" type="float"/></accessor></technique_common></source>
+        <vertices id="beamcraft_steve_6-vtx"><input semantic="POSITION" source="#beamcraft_steve_6-pos"/></vertices>
+        <polylist count="12" material="beamcraft_steve_eye-material">
+          <input offset="0" semantic="VERTEX" source="#beamcraft_steve_6-vtx"/>
+          <input offset="1" semantic="NORMAL" source="#beamcraft_steve_6-nrm"/>
+          <input offset="2" semantic="TEXCOORD" source="#beamcraft_steve_6-uv" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4</vcount>
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 1 4 5 1 5 6 1 6 7 1 7 8 2 8 9 2 9 10 2 10 11 2 11 12 3 12 13 3 13 14 3 14 15 3 15 16 4 16 17 4 17 18 4 18 19 4 19 20 5 20 21 5 21 22 5 22 23 5 23 24 6 24 25 6 25 26 6 26 27 6 27 28 7 28 29 7 29 30 7 30 31 7 31 32 8 32 33 8 33 34 8 34 35 8 35 36 9 36 37 9 37 38 9 38 39 9 39 40 10 40 41 10 41 42 10 42 43 10 43 44 11 44 45 11 45 46 11 46 47 11 47</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="beamcraft_steve_7-mesh" name="beamcraft_steve_7">
+      <mesh>
+        <source id="beamcraft_steve_7-pos"><float_array id="beamcraft_steve_7-pos-array" count="72">-0.05625 0.225 1.4625 0.05625 0.225 1.4625 0.05625 0.231 1.4625 -0.05625 0.231 1.4625 -0.05625 0.231 1.40625 0.05625 0.231 1.40625 0.05625 0.225 1.40625 -0.05625 0.225 1.40625 0.05625 0.225 1.40625 0.05625 0.231 1.40625 0.05625 0.231 1.4625 0.05625 0.225 1.4625 -0.05625 0.231 1.40625 -0.05625 0.225 1.40625 -0.05625 0.225 1.4625 -0.05625 0.231 1.4625 0.05625 0.231 1.40625 -0.05625 0.231 1.40625 -0.05625 0.231 1.4625 0.05625 0.231 1.4625 -0.05625 0.225 1.40625 0.05625 0.225 1.40625 0.05625 0.225 1.4625 -0.05625 0.225 1.4625</float_array>
+          <technique_common><accessor source="#beamcraft_steve_7-pos-array" count="24" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_7-nrm"><float_array id="beamcraft_steve_7-nrm-array" count="18">0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0</float_array>
+          <technique_common><accessor source="#beamcraft_steve_7-nrm-array" count="6" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_steve_7-uv"><float_array id="beamcraft_steve_7-uv-array" count="48">0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1</float_array>
+          <technique_common><accessor source="#beamcraft_steve_7-uv-array" count="24" stride="2"><param name="S" type="float"/><param name="T" type="float"/></accessor></technique_common></source>
+        <vertices id="beamcraft_steve_7-vtx"><input semantic="POSITION" source="#beamcraft_steve_7-pos"/></vertices>
+        <polylist count="6" material="beamcraft_steve_mouth-material">
+          <input offset="0" semantic="VERTEX" source="#beamcraft_steve_7-vtx"/>
+          <input offset="1" semantic="NORMAL" source="#beamcraft_steve_7-nrm"/>
+          <input offset="2" semantic="TEXCOORD" source="#beamcraft_steve_7-uv" set="0"/>
+          <vcount>4 4 4 4 4 4</vcount>
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 1 4 5 1 5 6 1 6 7 1 7 8 2 8 9 2 9 10 2 10 11 2 11 12 3 12 13 3 13 14 3 14 15 3 15 16 4 16 17 4 17 18 4 18 19 4 19 20 5 20 21 5 21 22 5 22 23 5 23</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="beamcraft_steve_0_a2" name="beamcraft_steve_0_a2" type="NODE">
+        <instance_geometry url="#beamcraft_steve_0-mesh"><bind_material><technique_common>
+          <instance_material symbol="beamcraft_steve_shoes-material" target="#beamcraft_steve_shoes-material"/>
+        </technique_common></bind_material></instance_geometry>
+      </node>
+      <node id="beamcraft_steve_1_a2" name="beamcraft_steve_1_a2" type="NODE">
+        <instance_geometry url="#beamcraft_steve_1-mesh"><bind_material><technique_common>
+          <instance_material symbol="beamcraft_steve_pants-material" target="#beamcraft_steve_pants-material"/>
+        </technique_common></bind_material></instance_geometry>
+      </node>
+      <node id="beamcraft_steve_2_a2" name="beamcraft_steve_2_a2" type="NODE">
+        <instance_geometry url="#beamcraft_steve_2-mesh"><bind_material><technique_common>
+          <instance_material symbol="beamcraft_steve_shirt-material" target="#beamcraft_steve_shirt-material"/>
+        </technique_common></bind_material></instance_geometry>
+      </node>
+      <node id="beamcraft_steve_3_a2" name="beamcraft_steve_3_a2" type="NODE">
+        <instance_geometry url="#beamcraft_steve_3-mesh"><bind_material><technique_common>
+          <instance_material symbol="beamcraft_steve_skin-material" target="#beamcraft_steve_skin-material"/>
+        </technique_common></bind_material></instance_geometry>
+      </node>
+      <node id="beamcraft_steve_4_a2" name="beamcraft_steve_4_a2" type="NODE">
+        <instance_geometry url="#beamcraft_steve_4-mesh"><bind_material><technique_common>
+          <instance_material symbol="beamcraft_steve_hair-material" target="#beamcraft_steve_hair-material"/>
+        </technique_common></bind_material></instance_geometry>
+      </node>
+      <node id="beamcraft_steve_5_a2" name="beamcraft_steve_5_a2" type="NODE">
+        <instance_geometry url="#beamcraft_steve_5-mesh"><bind_material><technique_common>
+          <instance_material symbol="beamcraft_steve_eyewhite-material" target="#beamcraft_steve_eyewhite-material"/>
+        </technique_common></bind_material></instance_geometry>
+      </node>
+      <node id="beamcraft_steve_6_a2" name="beamcraft_steve_6_a2" type="NODE">
+        <instance_geometry url="#beamcraft_steve_6-mesh"><bind_material><technique_common>
+          <instance_material symbol="beamcraft_steve_eye-material" target="#beamcraft_steve_eye-material"/>
+        </technique_common></bind_material></instance_geometry>
+      </node>
+      <node id="beamcraft_steve_7_a2" name="beamcraft_steve_7_a2" type="NODE">
+        <instance_geometry url="#beamcraft_steve_7-mesh"><bind_material><technique_common>
+          <instance_material symbol="beamcraft_steve_mouth-material" target="#beamcraft_steve_mouth-material"/>
+        </technique_common></bind_material></instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene><instance_visual_scene url="#Scene"/></scene>
+</COLLADA>

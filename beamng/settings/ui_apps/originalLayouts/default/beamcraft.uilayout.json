@@ -1,0 +1,28 @@
+{
+  "apps":[
+    {
+      "appName":"beamcraftHud",
+      "placement":{
+        "left":"0px",
+        "top":"0px",
+        "width":"100%",
+        "height":"100%"
+      }
+    },
+    {
+      "appName":"raceCountdown",
+      "placement":{
+        "height":"160px",
+        "left":"0px",
+        "margin":"auto",
+        "right":"0px",
+        "top":"220px",
+        "width":"900px"
+      }
+    }
+  ],
+  "description":"BeamCraft: playing as Steve, with Minecraft's own HUD",
+  "title":"BeamCraft",
+  "type":"beamcraft",
+  "version":1
+}

@@ -1,0 +1,1416 @@
+{
+  "beamcraft_c0": {
+    "name": "beamcraft_c0",
+    "mapTo": "beamcraft_c0",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.7843,
+          0.902,
+          1.0,
+          0.35
+        ],
+        "specularPower": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft",
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": false
+  },
+  "beamcraft_c1": {
+    "name": "beamcraft_c1",
+    "mapTo": "beamcraft_c1",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.498,
+          0.698,
+          0.2196,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c2": {
+    "name": "beamcraft_c2",
+    "mapTo": "beamcraft_c2",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.9686,
+          0.9137,
+          0.6392,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c3": {
+    "name": "beamcraft_c3",
+    "mapTo": "beamcraft_c3",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.7804,
+          0.7804,
+          0.7804,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c4": {
+    "name": "beamcraft_c4",
+    "mapTo": "beamcraft_c4",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c5": {
+    "name": "beamcraft_c5",
+    "mapTo": "beamcraft_c5",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.6275,
+          0.6275,
+          1.0,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c6": {
+    "name": "beamcraft_c6",
+    "mapTo": "beamcraft_c6",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.6549,
+          0.6549,
+          0.6549,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c7": {
+    "name": "beamcraft_c7",
+    "mapTo": "beamcraft_c7",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.0,
+          0.4863,
+          0.0,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c8": {
+    "name": "beamcraft_c8",
+    "mapTo": "beamcraft_c8",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c9": {
+    "name": "beamcraft_c9",
+    "mapTo": "beamcraft_c9",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.6431,
+          0.6588,
+          0.7216,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c10": {
+    "name": "beamcraft_c10",
+    "mapTo": "beamcraft_c10",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.5922,
+          0.4275,
+          0.302,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c11": {
+    "name": "beamcraft_c11",
+    "mapTo": "beamcraft_c11",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.4392,
+          0.4392,
+          0.4392,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c12": {
+    "name": "beamcraft_c12",
+    "mapTo": "beamcraft_c12",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.251,
+          0.251,
+          1.0,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c13": {
+    "name": "beamcraft_c13",
+    "mapTo": "beamcraft_c13",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.5608,
+          0.4667,
+          0.2824,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c14": {
+    "name": "beamcraft_c14",
+    "mapTo": "beamcraft_c14",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1.0,
+          0.9882,
+          0.9608,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c15": {
+    "name": "beamcraft_c15",
+    "mapTo": "beamcraft_c15",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.8471,
+          0.498,
+          0.2,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c16": {
+    "name": "beamcraft_c16",
+    "mapTo": "beamcraft_c16",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.698,
+          0.298,
+          0.8471,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c17": {
+    "name": "beamcraft_c17",
+    "mapTo": "beamcraft_c17",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.4,
+          0.6,
+          0.8471,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c18": {
+    "name": "beamcraft_c18",
+    "mapTo": "beamcraft_c18",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.898,
+          0.898,
+          0.2,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c19": {
+    "name": "beamcraft_c19",
+    "mapTo": "beamcraft_c19",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.498,
+          0.8,
+          0.098,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c20": {
+    "name": "beamcraft_c20",
+    "mapTo": "beamcraft_c20",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.949,
+          0.498,
+          0.6471,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c21": {
+    "name": "beamcraft_c21",
+    "mapTo": "beamcraft_c21",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.298,
+          0.298,
+          0.298,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c22": {
+    "name": "beamcraft_c22",
+    "mapTo": "beamcraft_c22",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.6,
+          0.6,
+          0.6,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c23": {
+    "name": "beamcraft_c23",
+    "mapTo": "beamcraft_c23",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.298,
+          0.498,
+          0.6,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c24": {
+    "name": "beamcraft_c24",
+    "mapTo": "beamcraft_c24",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.498,
+          0.2471,
+          0.698,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c25": {
+    "name": "beamcraft_c25",
+    "mapTo": "beamcraft_c25",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.2,
+          0.298,
+          0.698,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c26": {
+    "name": "beamcraft_c26",
+    "mapTo": "beamcraft_c26",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.4,
+          0.298,
+          0.2,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c27": {
+    "name": "beamcraft_c27",
+    "mapTo": "beamcraft_c27",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.4,
+          0.498,
+          0.2,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c28": {
+    "name": "beamcraft_c28",
+    "mapTo": "beamcraft_c28",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.6,
+          0.2,
+          0.2,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c29": {
+    "name": "beamcraft_c29",
+    "mapTo": "beamcraft_c29",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.098,
+          0.098,
+          0.098,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c30": {
+    "name": "beamcraft_c30",
+    "mapTo": "beamcraft_c30",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.9804,
+          0.9333,
+          0.302,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c31": {
+    "name": "beamcraft_c31",
+    "mapTo": "beamcraft_c31",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.3608,
+          0.8588,
+          0.8353,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c32": {
+    "name": "beamcraft_c32",
+    "mapTo": "beamcraft_c32",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.2902,
+          0.502,
+          1.0,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c33": {
+    "name": "beamcraft_c33",
+    "mapTo": "beamcraft_c33",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.0,
+          0.851,
+          0.2275,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c34": {
+    "name": "beamcraft_c34",
+    "mapTo": "beamcraft_c34",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.5059,
+          0.3373,
+          0.1922,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c35": {
+    "name": "beamcraft_c35",
+    "mapTo": "beamcraft_c35",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.4392,
+          0.0078,
+          0.0,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c36": {
+    "name": "beamcraft_c36",
+    "mapTo": "beamcraft_c36",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.8196,
+          0.6941,
+          0.6314,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c37": {
+    "name": "beamcraft_c37",
+    "mapTo": "beamcraft_c37",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.6235,
+          0.3216,
+          0.1412,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c38": {
+    "name": "beamcraft_c38",
+    "mapTo": "beamcraft_c38",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.5843,
+          0.3412,
+          0.4235,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c39": {
+    "name": "beamcraft_c39",
+    "mapTo": "beamcraft_c39",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.4392,
+          0.4235,
+          0.5412,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c40": {
+    "name": "beamcraft_c40",
+    "mapTo": "beamcraft_c40",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.7294,
+          0.5216,
+          0.1412,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c41": {
+    "name": "beamcraft_c41",
+    "mapTo": "beamcraft_c41",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.4039,
+          0.4588,
+          0.2078,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c42": {
+    "name": "beamcraft_c42",
+    "mapTo": "beamcraft_c42",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.6275,
+          0.302,
+          0.3059,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c43": {
+    "name": "beamcraft_c43",
+    "mapTo": "beamcraft_c43",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.2235,
+          0.1608,
+          0.1373,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c44": {
+    "name": "beamcraft_c44",
+    "mapTo": "beamcraft_c44",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.5294,
+          0.4196,
+          0.3843,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c45": {
+    "name": "beamcraft_c45",
+    "mapTo": "beamcraft_c45",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.3412,
+          0.3608,
+          0.3608,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c46": {
+    "name": "beamcraft_c46",
+    "mapTo": "beamcraft_c46",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.4784,
+          0.2863,
+          0.3451,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c47": {
+    "name": "beamcraft_c47",
+    "mapTo": "beamcraft_c47",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.298,
+          0.2431,
+          0.3608,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c48": {
+    "name": "beamcraft_c48",
+    "mapTo": "beamcraft_c48",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.298,
+          0.1961,
+          0.1373,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c49": {
+    "name": "beamcraft_c49",
+    "mapTo": "beamcraft_c49",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.298,
+          0.3216,
+          0.1647,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c50": {
+    "name": "beamcraft_c50",
+    "mapTo": "beamcraft_c50",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.5569,
+          0.2353,
+          0.1804,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c51": {
+    "name": "beamcraft_c51",
+    "mapTo": "beamcraft_c51",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.1451,
+          0.0863,
+          0.0627,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c52": {
+    "name": "beamcraft_c52",
+    "mapTo": "beamcraft_c52",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.7412,
+          0.1882,
+          0.1922,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c53": {
+    "name": "beamcraft_c53",
+    "mapTo": "beamcraft_c53",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.5804,
+          0.2471,
+          0.3804,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c54": {
+    "name": "beamcraft_c54",
+    "mapTo": "beamcraft_c54",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.3608,
+          0.098,
+          0.1137,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c55": {
+    "name": "beamcraft_c55",
+    "mapTo": "beamcraft_c55",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.0863,
+          0.4941,
+          0.5255,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c56": {
+    "name": "beamcraft_c56",
+    "mapTo": "beamcraft_c56",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.2275,
+          0.5569,
+          0.549,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c57": {
+    "name": "beamcraft_c57",
+    "mapTo": "beamcraft_c57",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.3373,
+          0.1725,
+          0.2431,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c58": {
+    "name": "beamcraft_c58",
+    "mapTo": "beamcraft_c58",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.0784,
+          0.7059,
+          0.5216,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c59": {
+    "name": "beamcraft_c59",
+    "mapTo": "beamcraft_c59",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.3922,
+          0.3922,
+          0.3922,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c60": {
+    "name": "beamcraft_c60",
+    "mapTo": "beamcraft_c60",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.8471,
+          0.6863,
+          0.5765,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c61": {
+    "name": "beamcraft_c61",
+    "mapTo": "beamcraft_c61",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.498,
+          0.6549,
+          0.5882,
+          1.0
+        ],
+        "specularPower": 1,
+        "colorMap": "/art/beamcraft/blocks/block_d.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft"
+  },
+  "beamcraft_c62": {
+    "name": "beamcraft_c62",
+    "mapTo": "beamcraft_c62",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.7843,
+          0.902,
+          1.0,
+          0.35
+        ],
+        "specularPower": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft",
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": false
+  },
+  "beamcraft_c63": {
+    "name": "beamcraft_c63",
+    "mapTo": "beamcraft_c63",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.7843,
+          0.902,
+          1.0,
+          0.35
+        ],
+        "specularPower": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "beamng",
+    "materialTag1": "BeamCraft",
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": false
+  }
+}

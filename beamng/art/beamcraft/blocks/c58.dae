@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><authoring_tool>BeamCraft gen_art.py</authoring_tool></contributor>
+    <unit meter="1" name="meter"/><up_axis>Z_UP</up_axis></asset>
+  <library_effects>
+    <effect id="beamcraft_c58-effect"><profile_COMMON><technique sid="common"><lambert>
+      <diffuse><color sid="diffuse">0.8 0.8 0.8 1</color></diffuse></lambert></technique></profile_COMMON></effect>
+  </library_effects>
+  <library_materials>
+    <material id="beamcraft_c58-material" name="beamcraft_c58"><instance_effect url="#beamcraft_c58-effect"/></material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="beamcraft_c58_0-mesh" name="beamcraft_c58_0">
+      <mesh>
+        <source id="beamcraft_c58_0-pos"><float_array id="beamcraft_c58_0-pos-array" count="72">0 0 1 1 0 1 1 1 1 0 1 1 0 1 0 1 1 0 1 0 0 0 0 0 1 0 0 1 1 0 1 1 1 1 0 1 0 1 0 0 0 0 0 0 1 0 1 1 1 1 0 0 1 0 0 1 1 1 1 1 0 0 0 1 0 0 1 0 1 0 0 1</float_array>
+          <technique_common><accessor source="#beamcraft_c58_0-pos-array" count="24" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_c58_0-nrm"><float_array id="beamcraft_c58_0-nrm-array" count="18">0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0</float_array>
+          <technique_common><accessor source="#beamcraft_c58_0-nrm-array" count="6" stride="3"><param name="X" type="float"/><param name="Y" type="float"/><param name="Z" type="float"/></accessor></technique_common></source>
+        <source id="beamcraft_c58_0-uv"><float_array id="beamcraft_c58_0-uv-array" count="48">0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1</float_array>
+          <technique_common><accessor source="#beamcraft_c58_0-uv-array" count="24" stride="2"><param name="S" type="float"/><param name="T" type="float"/></accessor></technique_common></source>
+        <vertices id="beamcraft_c58_0-vtx"><input semantic="POSITION" source="#beamcraft_c58_0-pos"/></vertices>
+        <polylist count="6" material="beamcraft_c58-material">
+          <input offset="0" semantic="VERTEX" source="#beamcraft_c58_0-vtx"/>
+          <input offset="1" semantic="NORMAL" source="#beamcraft_c58_0-nrm"/>
+          <input offset="2" semantic="TEXCOORD" source="#beamcraft_c58_0-uv" set="0"/>
+          <vcount>4 4 4 4 4 4</vcount>
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 1 4 5 1 5 6 1 6 7 1 7 8 2 8 9 2 9 10 2 10 11 2 11 12 3 12 13 3 13 14 3 14 15 3 15 16 4 16 17 4 17 18 4 18 19 4 19 20 5 20 21 5 21 22 5 22 23 5 23</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="beamcraft_c58_0_a2" name="beamcraft_c58_0_a2" type="NODE">
+        <instance_geometry url="#beamcraft_c58_0-mesh"><bind_material><technique_common>
+          <instance_material symbol="beamcraft_c58-material" target="#beamcraft_c58-material"/>
+        </technique_common></bind_material></instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene><instance_visual_scene url="#Scene"/></scene>
+</COLLADA>
