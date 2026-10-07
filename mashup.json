@@ -1,0 +1,128 @@
+{
+  "id": "sigf/beamcraft-djtsdk",
+  "version": "0.1.0",
+  "name": "BeamCraft",
+  "tagline": "Get out of your car in BeamNG.drive as Steve: build with real Minecraft blocks that cars crash into, and punch cars until they dent.",
+  "how_to_play": [
+    "BeamNG.drive as usual, but on foot you are Minecraft's Steve: walk any map, place and break blocks, fight with Minecraft weapons and TNT.",
+    "Press Play: Minecraft starts first and hides itself, then BeamNG.drive. Load any map in Freeroam and BeamCraft connects by itself.",
+    "F gets out of the car or into the nearest one, Tab switches cars. On foot: WASD, Space jump, Left Shift sneak, Left Ctrl sprint, F5 third person.",
+    "Left mouse attacks, breaks blocks and dents cars; right mouse places blocks and opens doors. E inventory, Q drop, T chat, / commands.",
+    "Every key can be rebound in BeamNG's controls under Gameplay, actions named BeamCraft."
+  ],
+  "kind": "passthrough",
+  "games": [
+    {
+      "game": "beamng",
+      "role": "host",
+      "label": "BeamNG.drive",
+      "engine": "BeamNG.drive (Torque3D-based, x64) + BeamNG Lua mod (GE extension, UI app)",
+      "apps": {
+        "steam": "284160"
+      },
+      "runtime": "0.39 (tested by the author)"
+    },
+    {
+      "game": "minecraft",
+      "role": "guest",
+      "label": "Minecraft",
+      "engine": "Minecraft Java 1.21.1 + Fabric mod beamcraft (Java)",
+      "mc": "1.21.1",
+      "loader": "fabric@0.19.3",
+      "java": "21"
+    }
+  ],
+  "requires": [
+    {
+      "id": "fabric-loader",
+      "version": "0.19.3"
+    },
+    {
+      "id": "fabric-api",
+      "version": "0.116.17+1.21.1",
+      "note": "in the Minecraft pack (downloaded from Modrinth)"
+    }
+  ],
+  "install": [
+    {
+      "game": "beamng",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "beamcraft.zip",
+          "dst": "{app}/userfolder/current/mods/beamcraft.zip",
+          "unpack": false,
+          "url": "https://github.com/SIGFAI/beamcraft-djtsdk/releases/download/v0.1.0/beamcraft.zip",
+          "sha256": "db1d05f5d7dbb803b7b52f0f262354e5e8293a1387e30b965ec6b07cdfcded6a",
+          "size": 102636
+        }
+      ]
+    },
+    {
+      "game": "minecraft",
+      "strategy": "mrpack",
+      "pack": {
+        "src": "beamcraft-djtsdk.mrpack",
+        "url": "https://github.com/SIGFAI/beamcraft-djtsdk/releases/download/v0.1.0/beamcraft-djtsdk.mrpack",
+        "sha256": "d38fadb351bca48428c25841616f8dfd076d4111c362dc34534f542ec2975f0f",
+        "size": 92364
+      }
+    }
+  ],
+  "launch": [
+    {
+      "game": "minecraft",
+      "wait": "port:47822"
+    },
+    {
+      "game": "beamng",
+      "args": [
+        "-userpath",
+        "{app}/userfolder"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "beamcraft.zip",
+      "url": "https://github.com/SIGFAI/beamcraft-djtsdk/releases/download/v0.1.0/beamcraft.zip",
+      "sha256": "db1d05f5d7dbb803b7b52f0f262354e5e8293a1387e30b965ec6b07cdfcded6a",
+      "size": 102636
+    },
+    {
+      "name": "beamcraft-djtsdk.mrpack",
+      "url": "https://github.com/SIGFAI/beamcraft-djtsdk/releases/download/v0.1.0/beamcraft-djtsdk.mrpack",
+      "sha256": "d38fadb351bca48428c25841616f8dfd076d4111c362dc34534f542ec2975f0f",
+      "size": 92364
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/DJtsdk/BeamCraft",
+    "license": "GPL-3.0-only",
+    "upstream_license": "GPL-3.0-only",
+    "tag": "v0.1.0",
+    "commit": "6cf6bbbcfd9d14d2df3cc6e219dc6721694cc354",
+    "hosted": "https://github.com/SIGFAI/beamcraft-djtsdk"
+  },
+  "media": {},
+  "built_by": {
+    "author": "DJtsdk",
+    "authors": [
+      "DJtsdk"
+    ],
+    "packaged_by": "SIGF"
+  },
+  "idea_by": "DJtsdk",
+  "built_at": "2026-10-07T00:00:00.000Z",
+  "conflicts": [
+    "sigf/beamcraft"
+  ],
+  "status": "beta",
+  "issues": "https://github.com/DJtsdk/BeamCraft/issues",
+  "notes": [
+    "You need BeamNG.drive on Steam (Windows) and Minecraft: Java Edition. BeamNG.drive starts with its own SIGF user folder (-userpath): your usual settings, mods and saves are not in it, and Restore deletes it.",
+    "Single player only. Mobs are off. Placed blocks become solid for cars after a short batch rebuild. With Lithium installed in the pack, Steve walks through cars.",
+    "Never together with the other BeamCraft (captiencelovesarch): both are called BeamCraft and use the mod id beamcraft. Restore one before installing the other.",
+    "Beta (first release, tested by the author on BeamNG.drive 0.39 and Minecraft 1.21.1): report bugs to the author with the Report a bug link."
+  ]
+}
